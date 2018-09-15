@@ -1,0 +1,31 @@
+{
+  "name": "aceonline-framebreak",
+  "description": "AceOnline std-weapon framebreaks calculation",
+  "main": "src/fb.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronthto/ao-framebreak.git"
+  },
+  "keywords": [
+    "aceonline",
+    "framebreak",
+    "acecalcs",
+    "airrivals",
+    "sco"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kronthto/ao-framebreak/issues"
+  },
+  "homepage": "https://github.com/kronthto/ao-framebreak",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "author": {
+    "name": "Tobias Kronthaler",
+    "url": "https://github.com/kronthto"
+  }
+}
