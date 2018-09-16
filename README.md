@@ -29,6 +29,7 @@ An array of objects with the keys:
 
 ```json
 [
+  { "rea": 0, "bps": 6.666666666666667 },
   { "rea": 12, "bps": 7.5 },
   { "rea": 23, "bps": 8.571428571428571 },
   { "rea": 34, "bps": 10 },

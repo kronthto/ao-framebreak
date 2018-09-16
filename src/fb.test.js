@@ -3,10 +3,13 @@ const fbcalc = require('./fb');
 test('HeroSiege BS', () => {
   const calculated = fbcalc(0.45, 3, 60, 70);
 
-  expect(calculated).toHaveLength(6);
+  expect(calculated).toHaveLength(7);
   expect(calculated).toEqual(
     expect.arrayContaining([{ rea: 45, bps: 12 }, { rea: 56, bps: 15 }])
   );
+
+  const rea0 = calculated.find(fb => fb.rea === 0);
+  expect(rea0.bps).toBeCloseTo(6.667); // Mostly to assert the 0-rea exists
 });
 
 test('+1 Siege BS', () => {

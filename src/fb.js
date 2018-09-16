@@ -13,7 +13,7 @@ function calcFBs(baseRea, firingMode, fps = 60, toReaPercent = 81) {
       }
     }
 
-    if (last && last != bps) {
+    if (last != bps) {
       fbs.push({ rea: i, bps: bps });
     }
     last = bps;
