@@ -22,7 +22,22 @@ let breakpoints = aofb(0.45, 3, 60); // BigSmash in HeroSiege at 60 FPS
 
 ## Return format
 
-TODO
+An array of objects with the keys:
+
+* `rea` - at which reattack upgrade the break occurs
+* `bps` - how many bullets are fired per second at this point
+
+```json
+[
+  { "rea": 12, "bps": 7.5 },
+  { "rea": 23, "bps": 8.571428571428571 },
+  { "rea": 34, "bps": 10 },
+  { "rea": 45, "bps": 12 },
+  { "rea": 56, "bps": 15 },
+  { "rea": 67, "bps": 20 },
+  { "rea": 78, "bps": 30 }
+]
+```
 
 ## Credits
 
